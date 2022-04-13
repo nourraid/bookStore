@@ -39,7 +39,7 @@ CREATE TABLE `admins` (
 
 INSERT INTO `admins` (`id`, `name`, `password`) VALUES
 (4, 'nour', '202cb962ac59075b964b07152d234b70');
-
+-- كلمة السر 123
 -- --------------------------------------------------------
 
 --

@@ -12,7 +12,6 @@ if (isset($_POST['Search'])) {
 <div class="container">
     <h3 class="w3l_header w3_agileits_header">Search result : <span> <?php echo $search_term ?></span></h3>
     <div class="agileits_banner_bottom_grids">
-
         <?php
         $sql = "select * from books where title like '%$search_term%' or description like '%$search_term%'";
         $result = mysqli_query($con, $sql);
